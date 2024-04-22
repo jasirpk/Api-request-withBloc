@@ -12,7 +12,9 @@ class PUblicApi extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: PostPage(),
+      home: PostPage(
+          // logicBloc: LogicBloc(),
+          ),
     );
   }
 }
